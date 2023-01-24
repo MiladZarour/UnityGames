@@ -211,12 +211,12 @@ GameObject:
   - component: {fileID: 41661627}
   - component: {fileID: 41661626}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: HiButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &41661625
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1111,12 +1111,12 @@ GameObject:
   - component: {fileID: 489430506}
   - component: {fileID: 489430505}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: LoButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &489430504
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3178,6 +3178,9 @@ MonoBehaviour:
   - {fileID: 355377155}
   - {fileID: 2015088641}
   cardGenerate: 0
+  hiButton: {fileID: 41661624}
+  loButton: {fileID: 489430503}
+  dealButton: {fileID: 776428269}
 --- !u!1 &2014903671
 GameObject:
   m_ObjectHideFlags: 0

@@ -3161,7 +3161,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec32a6cb2ef45564d8f85255e46d71a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dealtCard: {fileID: 911008515}
+  dealtCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 911008515}
+  - {fileID: 1353409756}
+  - {fileID: 172446654}
+  - {fileID: 1953234552}
+  - {fileID: 1436021645}
+  - {fileID: 2014903671}
+  - {fileID: 231804282}
+  - {fileID: 1588150036}
+  - {fileID: 1252059170}
+  - {fileID: 113429979}
+  - {fileID: 733309436}
+  - {fileID: 355377155}
+  - {fileID: 2015088641}
+  cardGenerate: 0
 --- !u!1 &2014903671
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,5 +11,6 @@ public class LoButton : MonoBehaviour
         cardGenerate = Random.Range(2, 15);
         dealtCard[cardGenerate].SetActive(true);
         CardControl.newCardNumber = cardGenerate;
+        CardControl.guessLo = true;
     }
 }

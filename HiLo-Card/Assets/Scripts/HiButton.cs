@@ -11,5 +11,6 @@ public class HiButton : MonoBehaviour
         cardGenerate = Random.Range(2, 15);
         dealtCard[cardGenerate].SetActive(true);
         CardControl.newCardNumber = cardGenerate;
+        CardControl.guessHi = true;
     }
 }

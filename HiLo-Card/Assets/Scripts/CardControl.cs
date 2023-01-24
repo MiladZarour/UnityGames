@@ -15,12 +15,16 @@ public class CardControl : MonoBehaviour
     public GameObject dealButton;
     public GameObject[] dealingLeftCards;
     public GameObject[] turningRightCards;
+    public AudioSource cardDeal;
+    public AudioSource correctCard;
+    public AudioSource incorrectCard;
 
     // equal number = winner
     void Update()
     {
         if (guessHi == true)
         {
+            cardDeal.Play();
             guessHi = false;
             hiButton.SetActive(false);
             loButton.SetActive(false);
@@ -28,6 +32,7 @@ public class CardControl : MonoBehaviour
         }
         if (guessLo == true)
         {
+            cardDeal.Play();
             guessLo = false;
             hiButton.SetActive(false);
             loButton.SetActive(false);
@@ -41,6 +46,7 @@ public class CardControl : MonoBehaviour
         if(newCardNumber >= dealtCardNumber)
         {
             correctText.SetActive(true);
+            correctCard.Play();
             GlobalScope.currentScore += 1;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
@@ -79,6 +85,7 @@ public class CardControl : MonoBehaviour
         else
         {
             incorrectText.SetActive(true);
+            incorrectCard.Play();
             GlobalScope.currentScore = 0;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
@@ -118,6 +125,7 @@ public class CardControl : MonoBehaviour
         if (newCardNumber <= dealtCardNumber)
         {
             correctText.SetActive(true);
+            correctCard.Play();
             GlobalScope.currentScore += 1;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
@@ -156,6 +164,7 @@ public class CardControl : MonoBehaviour
         else
         {
             incorrectText.SetActive(true);
+            incorrectCard.Play();
             GlobalScope.currentScore = 0;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);

@@ -9,8 +9,10 @@ public class DealCard : MonoBehaviour
     public GameObject hiButton;
     public GameObject loButton;
     public GameObject dealButton;
+    public AudioSource dealCard;
     public void DealMyNewCard()
     {
+        dealCard.Play();
         cardGenerate = Random.Range(2, 15);
         dealtCard[cardGenerate].SetActive(true);
         hiButton.SetActive(true);

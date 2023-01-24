@@ -41,6 +41,7 @@ public class CardControl : MonoBehaviour
         if(newCardNumber >= dealtCardNumber)
         {
             correctText.SetActive(true);
+            GlobalScope.currentScore += 1;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
             dealingLeftCards[3].SetActive(false);
@@ -78,6 +79,7 @@ public class CardControl : MonoBehaviour
         else
         {
             incorrectText.SetActive(true);
+            GlobalScope.currentScore = 0;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
             dealingLeftCards[3].SetActive(false);
@@ -116,6 +118,7 @@ public class CardControl : MonoBehaviour
         if (newCardNumber <= dealtCardNumber)
         {
             correctText.SetActive(true);
+            GlobalScope.currentScore += 1;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
             dealingLeftCards[3].SetActive(false);
@@ -153,6 +156,7 @@ public class CardControl : MonoBehaviour
         else
         {
             incorrectText.SetActive(true);
+            GlobalScope.currentScore = 0;
             yield return new WaitForSeconds(3);
             dealingLeftCards[2].SetActive(false);
             dealingLeftCards[3].SetActive(false);

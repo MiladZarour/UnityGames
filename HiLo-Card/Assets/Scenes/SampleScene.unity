@@ -3414,6 +3414,38 @@ MonoBehaviour:
   hiButton: {fileID: 41661624}
   loButton: {fileID: 489430503}
   dealButton: {fileID: 776428269}
+  dealingLeftCards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 396272380}
+  - {fileID: 752769052}
+  - {fileID: 292305805}
+  - {fileID: 868107719}
+  - {fileID: 991910974}
+  - {fileID: 477118260}
+  - {fileID: 1606293012}
+  - {fileID: 1259513546}
+  - {fileID: 62779668}
+  - {fileID: 1444058113}
+  - {fileID: 33614064}
+  - {fileID: 239228549}
+  - {fileID: 685621550}
+  turningRightCards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 911008515}
+  - {fileID: 1353409756}
+  - {fileID: 172446654}
+  - {fileID: 1953234552}
+  - {fileID: 1436021645}
+  - {fileID: 2014903671}
+  - {fileID: 231804282}
+  - {fileID: 1588150036}
+  - {fileID: 1252059170}
+  - {fileID: 113429979}
+  - {fileID: 733309436}
+  - {fileID: 355377155}
+  - {fileID: 2015088641}
 --- !u!114 &1978044579
 MonoBehaviour:
   m_ObjectHideFlags: 0

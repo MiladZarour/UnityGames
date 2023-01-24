@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 33614067}
   - component: {fileID: 33614066}
   m_Layer: 5
-  m_Name: 12Q (1)
+  m_Name: 12Q
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,7 +279,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 41661627}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1978044577}
+        m_TargetAssemblyTypeName: HiButton, Assembly-CSharp
+        m_MethodName: DealHiCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &41661627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,7 +342,7 @@ GameObject:
   - component: {fileID: 62779671}
   - component: {fileID: 62779670}
   m_Layer: 5
-  m_Name: 10 (1)
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -630,7 +642,7 @@ GameObject:
   - component: {fileID: 239228552}
   - component: {fileID: 239228551}
   m_Layer: 5
-  m_Name: 13K (1)
+  m_Name: 13K
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -705,7 +717,7 @@ GameObject:
   - component: {fileID: 292305808}
   - component: {fileID: 292305807}
   m_Layer: 5
-  m_Name: 4 (1)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -960,7 +972,7 @@ GameObject:
   - component: {fileID: 396272383}
   - component: {fileID: 396272382}
   m_Layer: 5
-  m_Name: 2 (1)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1035,7 +1047,7 @@ GameObject:
   - component: {fileID: 477118263}
   - component: {fileID: 477118262}
   m_Layer: 5
-  m_Name: 7 (1)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1179,7 +1191,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 489430506}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1978044579}
+        m_TargetAssemblyTypeName: LoButton, Assembly-CSharp
+        m_MethodName: DealLoCard
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &489430506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,7 +1254,7 @@ GameObject:
   - component: {fileID: 685621553}
   - component: {fileID: 685621552}
   m_Layer: 5
-  m_Name: 14A (1)
+  m_Name: 14A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1551,7 +1575,7 @@ GameObject:
   - component: {fileID: 752769055}
   - component: {fileID: 752769054}
   m_Layer: 5
-  m_Name: 3 (1)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1806,7 +1830,7 @@ GameObject:
   - component: {fileID: 868107722}
   - component: {fileID: 868107721}
   m_Layer: 5
-  m_Name: 5 (1)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2039,7 +2063,7 @@ GameObject:
   - component: {fileID: 991910977}
   - component: {fileID: 991910976}
   m_Layer: 5
-  m_Name: 6 (1)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,7 +2213,7 @@ GameObject:
   - component: {fileID: 1259513549}
   - component: {fileID: 1259513548}
   m_Layer: 5
-  m_Name: 9 (1)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2414,7 +2438,7 @@ GameObject:
   - component: {fileID: 1444058116}
   - component: {fileID: 1444058115}
   m_Layer: 5
-  m_Name: 11J (1)
+  m_Name: 11J
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2750,7 +2774,7 @@ GameObject:
   - component: {fileID: 1606293015}
   - component: {fileID: 1606293014}
   m_Layer: 5
-  m_Name: 8 (1)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3128,6 +3152,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1978044575}
   - component: {fileID: 1978044576}
+  - component: {fileID: 1978044578}
+  - component: {fileID: 1978044577}
+  - component: {fileID: 1978044579}
   m_Layer: 0
   m_Name: Settings
   m_TagString: Untagged
@@ -3181,6 +3208,76 @@ MonoBehaviour:
   hiButton: {fileID: 41661624}
   loButton: {fileID: 489430503}
   dealButton: {fileID: 776428269}
+--- !u!114 &1978044577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978044574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92270e9177cc22a489381d5aa82968c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dealtCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 396272380}
+  - {fileID: 752769052}
+  - {fileID: 292305805}
+  - {fileID: 868107719}
+  - {fileID: 991910974}
+  - {fileID: 477118260}
+  - {fileID: 1606293012}
+  - {fileID: 1259513546}
+  - {fileID: 62779668}
+  - {fileID: 1444058113}
+  - {fileID: 33614064}
+  - {fileID: 239228549}
+  - {fileID: 685621550}
+  cardGenerate: 0
+--- !u!114 &1978044578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978044574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b8dc19857236c43be7865c6f65511e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1978044579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978044574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a127d287a99c1942abdb587ada25a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dealtCard:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 396272380}
+  - {fileID: 752769052}
+  - {fileID: 292305805}
+  - {fileID: 868107719}
+  - {fileID: 991910974}
+  - {fileID: 477118260}
+  - {fileID: 1606293012}
+  - {fileID: 1259513546}
+  - {fileID: 62779668}
+  - {fileID: 1444058113}
+  - {fileID: 33614064}
+  - {fileID: 239228549}
+  - {fileID: 685621550}
+  cardGenerate: 0
 --- !u!1 &2014903671
 GameObject:
   m_ObjectHideFlags: 0

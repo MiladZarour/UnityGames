@@ -16,5 +16,6 @@ public class DealCard : MonoBehaviour
         hiButton.SetActive(true);
         loButton.SetActive(true);
         dealButton.SetActive(false);
+        CardControl.dealtCardNumber = cardGenerate;
     }
 }

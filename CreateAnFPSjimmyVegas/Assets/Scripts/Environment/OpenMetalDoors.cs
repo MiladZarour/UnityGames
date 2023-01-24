@@ -9,6 +9,7 @@ public class OpenMetalDoors : MonoBehaviour
     public GameObject actionText;
     public GameObject leftDoor;
     public GameObject rightDoor;
+    public AudioSource metalOpen;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,7 @@ public class OpenMetalDoors : MonoBehaviour
 
             if(Input.GetButtonDown("Action"))
             {
+                metalOpen.Play();
                 this.GetComponent<BoxCollider>().enabled = false;
                 actionDisplay.SetActive(false);
                 actionText.SetActive(false);

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class AmmoDisplay : MonoBehaviour
 {
     public GameObject ammoTextUI;
-    public int pistolCount;
+    public static int pistolCount;
 
 
     void Update()

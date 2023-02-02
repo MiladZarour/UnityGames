@@ -1089,6 +1089,7 @@ GameObject:
   - component: {fileID: 119876593}
   - component: {fileID: 119876592}
   - component: {fileID: 119876591}
+  - component: {fileID: 119876594}
   m_Layer: 0
   m_Name: BigRock01
   m_TagString: Untagged
@@ -1119,7 +1120,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119876589}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1173,6 +1174,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119876589}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &119876594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119876589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614dfd387ad3334c81142602a21b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 346182457}
+  charModel: {fileID: 0}
 --- !u!1 &123271684
 GameObject:
   m_ObjectHideFlags: 0
@@ -18915,6 +18930,7 @@ GameObject:
   - component: {fileID: 1965255423}
   - component: {fileID: 1965255422}
   - component: {fileID: 1965255421}
+  - component: {fileID: 1965255424}
   m_Layer: 0
   m_Name: BigRock01
   m_TagString: Untagged
@@ -18945,11 +18961,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965255419}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2779933, y: 1, z: 1.2445171}
+  m_Center: {x: 0.07455689, y: 0, z: -0.122258574}
 --- !u!23 &1965255422
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18999,6 +19015,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965255419}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1965255424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965255419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614dfd387ad3334c81142602a21b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 346182457}
+  charModel: {fileID: 302872873}
 --- !u!1 &1973495144
 GameObject:
   m_ObjectHideFlags: 0

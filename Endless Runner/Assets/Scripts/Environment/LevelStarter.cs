@@ -14,7 +14,7 @@ public class LevelStarter : MonoBehaviour
 
     void Start()
     {
-        
+        StartCoroutine(CountSequence());
     }
 
 

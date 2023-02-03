@@ -1190,6 +1190,7 @@ MonoBehaviour:
   charModel: {fileID: 0}
   crashThud: {fileID: 0}
   mainCam: {fileID: 0}
+  levelControl: {fileID: 513826016}
 --- !u!1 &123271684
 GameObject:
   m_ObjectHideFlags: 0
@@ -6739,6 +6740,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1001 &671775996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7424,6 +7426,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!65 &713776288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10614,6 +10617,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1001 &1056300216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12503,6 +12507,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1 &1202347683
 GameObject:
   m_ObjectHideFlags: 0
@@ -15985,6 +15990,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1001 &1548826758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16789,6 +16795,41 @@ Transform:
   m_Father: {fileID: 22488397}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1628826300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: 24a759921bedc2541881a0535a7bfcc8, type: 3}
+  m_PrefabInstance: {fileID: 1038309755}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1628826301
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628826300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1628826302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628826300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614dfd387ad3334c81142602a21b9af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thePlayer: {fileID: 346182457}
+  charModel: {fileID: 302872873}
+  crashThud: {fileID: 498154215}
+  mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1001 &1645241496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20071,6 +20112,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 513826016}
 --- !u!1 &1973495144
 GameObject:
   m_ObjectHideFlags: 0
@@ -20886,6 +20928,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
+  levelControl: {fileID: 0}
 --- !u!1001 &2090300099
 PrefabInstance:
   m_ObjectHideFlags: 0

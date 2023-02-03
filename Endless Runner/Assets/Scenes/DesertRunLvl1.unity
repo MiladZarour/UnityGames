@@ -3641,6 +3641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   leftRightSpeed: 4
+  isJumping: 0
+  comingDown: 0
+  playerObject: {fileID: 302872873}
 --- !u!143 &346182463
 CharacterController:
   m_ObjectHideFlags: 0
@@ -21038,7 +21041,7 @@ MonoBehaviour:
   charModel: {fileID: 302872873}
   crashThud: {fileID: 498154215}
   mainCam: {fileID: 963194225}
-  levelControl: {fileID: 0}
+  levelControl: {fileID: 513826016}
 --- !u!1001 &2090300099
 PrefabInstance:
   m_ObjectHideFlags: 0

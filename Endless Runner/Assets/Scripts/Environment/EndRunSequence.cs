@@ -19,7 +19,7 @@ public class EndRunSequence : MonoBehaviour
         yield return new WaitForSeconds(5);
         liveCoins.SetActive(false);
         liveDis.SetActive(false);
-        endScreen.SetActive(false);
+        endScreen.SetActive(true);
         yield return new WaitForSeconds(5);
         fadeOut.SetActive(true);
     }

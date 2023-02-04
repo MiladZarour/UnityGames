@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Propeller : MonoBehaviour
+public class SpinPropellerX : MonoBehaviour
 {
 
     public float rotationSpeed;

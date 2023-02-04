@@ -7,6 +7,7 @@ public class FollowPlayer : MonoBehaviour
 
     public GameObject player;
     private Vector3 offset = new Vector3(0, 5, -7);
+    private bool cameraView = false;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,18 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        if (cameraView == false && Input.GetKeyDown(KeyCode.Space))
+        {
+            cameraView = true;
+            offset = new Vector3(0, 5, -10);
+        }
+        else if (cameraView == true && Input.GetKeyDown(KeyCode.Space))
+        {
+            cameraView = false;
+            offset = new Vector3(0, 2.3f, 0);
+        }
+        // Offset the camera to the player
         transform.position = player.transform.position + offset;
-        transform.rotation = player.transform.rotation;
+        //transform.rotation = player.transform.rotation;
     }
 }

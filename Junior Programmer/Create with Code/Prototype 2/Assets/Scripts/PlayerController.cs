@@ -5,19 +5,28 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float horizontalInput;
-    public float speed;
+    public float speed = 10;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.x <= -10)
+        {
+            transform.position = new Vector3(-10, transform.position.y, transform.position.z);
+        }
+        if (transform.position.x >= 10)
+        {
+            transform.position = new Vector3(10, transform.position.y, transform.position.z);
+        }
         //take the Horizontal input..
         horizontalInput = Input.GetAxis("Horizontal");
-        transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+            transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+        }
     }
-}
+
